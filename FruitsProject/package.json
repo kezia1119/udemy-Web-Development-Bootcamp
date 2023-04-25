@@ -1,20 +1,17 @@
 {
-  "name": "ejs-challenge",
+  "name": "fruitsproject",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "lodash": "^4.17.21",
     "mongod": "^2.0.0",
     "mongodb": "^5.3.0",
-    "mongoose": "^7.0.5"
+    "mongoose": "^7.0.4"
   }
 }
