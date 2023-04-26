@@ -16,8 +16,9 @@ mongoose.connect("mongodb://127.0.0.1:27017/userDB");
 
 const userSchema = new mongoose.Schema({email: String, password: String});
 
-// step 2 const secret = "Thisisourlittlesecret."; userSchema.plugin(encrypt, {
-// secret: secret , encryptedFields: ["password"] });
+//step 2
+const secret = "Thisisourlittlesecret."; userSchema.plugin(encrypt, {
+secret: secret , encryptedFields: ["password"] });
 
 const User = new mongoose.model("User", userSchema);
 
